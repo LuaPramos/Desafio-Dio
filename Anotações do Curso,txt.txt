@@ -1,0 +1,75 @@
+"Um software é um trabalho colaborativo, ele não é feito por uma pessoa só."
+
+=========== O que é o GIT
+GIT é um software de versionamento de códigos, que auxilia a criar e monitorar diferentes versões do nosso código, dentro da máquina.
+
+Sobre o curso:
+- Controle de Versão
+- Armazenamento em nuvem
+- Trabalho em equipe
+- Melhorar seu código
+- Reconhecimento
+
+= Teoria e prática
+
+O GIT é um software CLI, que é um guia de comando.
+
+Aprender sobre
+-  Mudar de pastas 
+- Listar as pastas
+- Criar pastas/arquivos
+- Deletar pastas/arquivos
+
+===== Comandos no Windows
+
+=== Prompt de Comando
+dir -  mostra uma lista de diretórios na pasta onde estamos situados
+cd - possibilita navegar entre as pastas 
+cd / - abrir diretório do Windows
+cd .. - voltar ao passo anterior 
+cls - para limpar a tela
+cd + + letra da pasta +  tab - funç]ao de auto completar para evitar erros
+mkdir + nome para pasta - cria uma pasta no diretorio
+echo + palavra - para "imprimir uma palavra no terminal 
+rmdir + nome da pasta + /S /Q - para remover uma pasta e tudo dentro dela
+
+=====  Como o GIT funciona
+
+- SHA1 (Secure Hash Algorithm)
+É um algoritmo de encriptação, é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA).
+
+openssl sha1 + nome do arquivo que deseja abrir - Para abrir e criptografar um arquivo
+
+
+- Objetos fundamentais
+Objetos internos do GIT
+
+BLOBS - Contém metadados do GIT (sha1)
+TREES - Armazenam BLOBS diferentes, e nome do arquivo
+COMMITS - O objeto que junta todas a informações
+
+- Sistema distribuído
+
+Não é possível alterar o arquivo sem deixar rastros sobre essa mudança.
+
+- Segurança
+
+Chave SSH
+É uma forma de estabelecer uma conexão segura e encriptada entre duas máquinas.
+
+git clone + link do arquivo do GitHub - para clonar o repositório do GitHub para a minha máquina
+
+= git init - inicializa um repositório
+= git add - move o arquivo para seu lugar certo
+= git commit  - envelopa todas as informações, e retorna para Unmodified
+
+
+
+==== Repositório
+
+
+
+Teste de Proficiência
+
+8:14 até 8:19
+
